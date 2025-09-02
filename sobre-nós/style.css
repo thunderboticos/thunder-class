@@ -1,0 +1,32 @@
+#principal {
+    font-size: 2rem;
+}
+
+#bot-hist {
+    position: relative;
+    cursor: pointer;
+    width: 100%;
+    height: 70px;
+    border: none;
+    border-bottom: 2px solid black;
+    color: var(--azulEscuro);
+    font-size: 1.4rem;
+    text-align: left;
+    padding-left: 25px;
+    background-color: #ffffffff;
+}
+
+#seta-div {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 25px;
+    height: 100%;
+    font-size: 2.5rem;
+}
+
+#hist-section ol ul {
+    margin-left: 20px;
+    list-style-type: square;
+}

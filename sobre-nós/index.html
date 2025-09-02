@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=stat_minus_1" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./../styleGeral.css">
+    <title>Thunder Class</title>
+
+</head>
+<body>
+    <header>
+        <div id="logo-container">
+            <img src="./../imagens-gerais/logo.png" alt="Logo">
+            <span id="site-name">Thunder Class</span>
+        </div>
+        <nav>
+            <ul>
+            <li>
+                <div><a href="./../início/index.html">Início</a></div>
+            </li>
+            <li>
+                <div><a href="./../lições/index.html">Lições</a></div>
+            </li>
+            <li>
+                <div><a href="./../dinâmicas/index.html">Dinâmicas</a></div>
+            </li>
+            <li>
+                <div class="bot-selecionado"><a href="./../sobre-nós/index.html">Sobre Nós</a></div>
+            </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <hr>
+        <section class="centralizar secao-infos">
+            <h1 id="principal" style="margin-bottom: 40px;">Nossa Equipe</h1>
+            <img src="imagens/equipe.png" alt="Foto da equipe" style="width: 70%;">
+            <p class="texto-indentado" style="margin-top: 50px;">Os <strong>Thunderbóticos</strong> é uma equipe de robótica educacional formada por alunos do <strong>SESI de Rio Claro (SP)</strong>, com atuação destacada na competição internacional <strong>FIRST LEGO League (FLL)</strong>.</p>
+            <p class="texto-indentado">Atuando na <abbr title="First Lego League">FLL</abbr> desde <strong>2011</strong>, com mais de <strong>10 temporadas</strong> de experiência, a equipe se destaca pela <strong>inovação, trabalho em equipe e paixão por tecnologia</strong>, acumulando conquistas expressivas em torneios regionais, nacionais e internacionais — incluindo o vice-campeonato mundial em Houston (EUA) e o título nacional em Curitiba.</p>
+            <p class="texto-indentado" style="margin-bottom: 50px;">Mais do que construir robôs, os Thunderbóticos buscam soluções <strong>criativas</strong> para problemas do mundo real, promovendo a aprendizagem prática em <strong>ciência, engenharia e valores humanos</strong> como cooperação, respeito e inclusão.</p>
+            <button id="bot-hist">
+                <span>NOSSA HISTÓRIA</span>
+                <div id="seta-div">
+                    <span class="material-symbols-outlined" id="seta">stat_minus_1</span>
+                </div>
+            </button>
+            <section id="hist-section" style="display: none;">
+                <ol>
+                    <li>
+                        teste
+                        <ul>
+                            <li>teste</li>
+                        </ul>
+                    </li>
+                </ol>
+            </section>
+        </section>
+        <hr style="margin-bottom: 5px;">
+    </main>
+    <footer>
+    <div style="gap: 20px; padding: 35px 0 0 190px;">
+        <span>Equipe Thunderbóticos</span>
+        <span>Escola SESI de Rio Claro, SP - Brasil</span>
+    </div>
+    <div class="footer-direita">
+        <span>Acompanhe nossa equipe</span>
+        <div style="display: flex; flex-direction: row; width: auto; height: auto; gap: 15px;">
+        <a href="https://www.instagram.com/sesi.thunderboticos_rc/"><img src="./../imagens-gerais/instagram.png" alt="Instagram" style="background-image: linear-gradient(135deg, #6f117b, #fe005c, #ffff00);"></a>
+        <a href="#"><img src="./../imagens-gerais/youtube.png" alt="Youtube" style="background-color: red;"></a>
+        </div>
+    </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
