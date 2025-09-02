@@ -1,0 +1,10 @@
+section#secao-video-inicial {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+section video {
+    border: 3px solid black;
+    border-radius: 10px;
+}
