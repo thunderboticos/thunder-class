@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --azulBase: #4070df;
+    --azulEscuro: #2030af;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: "comfortaa";
+}
+
+header {
+    position: sticky;
+    top: 0;
+    display: flex;
+    height: 55px;
+    width: 100%;
+    font-size: 20px;
+    background-color: var(--azulBase);
+    z-index: 1;
+}
+
+div#logo-container {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    margin-left: 25px;
+}
+
+div#logo-container > img {
+    height: 80%;
+}
+
+span#site-name {
+    color: white;
+    margin-left: 10px;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    color: white;
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    height: 100%;
+}
+
+nav ul li {
+    list-style-type: none;
+    margin-right: 30px;
+    font-size: 17px;
+}
+
+nav ul li div {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+div.bot-selecionado {
+    border-bottom: 8px solid #ff9900;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: rgb(228, 228, 228);
+}
+
+div.bot-selecionado a {
+    transform: translateY(4px);
+}
+
+main {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+}
+
+section {
+    width: 100%;
+}
+
+main hr {
+    margin: 50px 0;
+    width: 75%;
+}
+
+.titulo-divisao {
+    display: flex;
+    align-items: center;
+    background-color: var(--azulEscuro);
+    width: 100%;
+    height: 100px;
+    padding-left: 15%;
+    color: white;
+    font-size: 1rem;
+}
+
+.secao-infos {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.secao-infos h2 {
+    font-size: 1.3rem;
+}
+
+.bot-base1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    height: 40px;
+    border: 2px solid var(--azulEscuro);
+    border-radius: 5px;
+    color: var(--azulEscuro);
+    text-decoration: none;
+}
+
+.bot-base2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: auto;
+    padding: 0 10px;
+    height: 40px;
+    border: 2px solid var(--azulEscuro);
+    border-radius: 5px;
+    color: var(--azulEscuro);
+    text-decoration: none;
+}
+
+footer {
+    display: flex;
+    font-size: 1.2rem;
+    color: white;
+    margin-top: 20px;
+    width: 100%;
+    height: 170px;
+    background-color: var(--azulEscuro);
+}
+
+footer div {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+}
+
+div.footer-direita {
+    justify-content: center;
+    align-items: center;
+    gap: 25px
+}
+
+div.footer-direita a {
+    display: block;
+}
+
+div.footer-direita img {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.centralizar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.texto-indentado {
+    text-indent: 20px;
+}
+
+abbr {
+    cursor: pointer;
+    text-decoration: none; 
+    font-weight: bold;
+}
+
+footer {
+    bottom: 0;
+}
